@@ -668,3 +668,138 @@ footer a:hover {
         padding: 20px;
     }
 }
+
+
+/* Contact Section */
+.contact {
+    padding: 70px 20px;
+    background: #f4f7fb;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 32px;
+    color: #183b56;
+    margin-bottom: 15px;
+}
+
+.contact .section-description {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Contact Form */
+#contactForm {
+    max-width: 600px;
+    margin: 0 auto 35px;
+    padding: 35px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    text-align: left;
+}
+
+/* Form Labels */
+#contactForm label {
+    display: block;
+    margin-bottom: 8px;
+    color: #183b56;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* Text Inputs and Dropdown */
+#contactForm input,
+#contactForm select,
+#contactForm textarea {
+    width: 100%;
+    padding: 13px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccd6e0;
+    border-radius: 7px;
+    background: #fff;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Focus Effect */
+#contactForm input:focus,
+#contactForm select:focus,
+#contactForm textarea:focus {
+    border-color: #2878a8;
+    box-shadow: 0 0 6px rgba(40, 120, 168, 0.25);
+}
+
+/* Message Box */
+#contactForm textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+/* Send Button */
+#contactForm button {
+    width: 100%;
+    padding: 14px;
+    background: #183b56;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+#contactForm button:hover {
+    background: #2878a8;
+    transform: translateY(-2px);
+}
+
+#contactForm button:active {
+    transform: translateY(0);
+}
+
+/* Submitted Information */
+#displayInfo {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    border-left: 5px solid #2878a8;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    text-align: left;
+    overflow-wrap: anywhere;
+}
+
+/* Horizontal Line */
+.contact hr {
+    max-width: 600px;
+    margin: 35px auto;
+    border: none;
+    border-top: 1px solid #d5dee8;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 600px) {
+    .contact {
+        padding: 45px 15px;
+    }
+
+    .contact h2 {
+        font-size: 27px;
+    }
+
+    #contactForm {
+        padding: 22px;
+    }
+
+    #contactForm input,
+    #contactForm select,
+    #contactForm textarea {
+        font-size: 14px;
+    }
+}
